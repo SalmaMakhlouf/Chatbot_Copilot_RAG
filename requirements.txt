@@ -1,7 +1,9 @@
-Chatbot_Copilot_RAG/
-│── app.py
-│── chat_public.py
-│── requirements.txt
-│── .env.example
-│── README.md
-│── .gitignore
+streamlit
+pillow
+python-dotenv
+langchain==0.1.16
+langchain-openai==0.1.3
+langchain-community==0.0.29
+azure-search-documents==11.6.0b4
+scikit-learn
+pandas
