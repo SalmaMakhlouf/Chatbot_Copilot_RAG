@@ -34,6 +34,15 @@ git clone https://github.com/<ton-username>/Chatbot_Copilot_RAG.git
 cd Chatbot_Copilot_RAG
 pip install -r requirements.txt
 ```
+## 📊 Résultats attendus
+- Réduction du temps de recherche d’information (~30 %).
+- Simplification de l’accès aux données pour les managers non techniques.
+- Base pour un futur Copilot intégré dans les dashboards R&D.
+
+## 📌 Limitations
+- Données utilisées ici = **factices** (les données réelles internes ne sont pas publiées).
+- Le POC n’intègre que la recherche RAG ; les autres approches (SQL direct, SelfQuery) sont prévues en extension.
+- Interface Streamlit volontairement simple.
 
 ## 👩‍💻 Auteur
 - **Salma Makhlouf**  
