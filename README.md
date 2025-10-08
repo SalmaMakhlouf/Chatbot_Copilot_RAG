@@ -50,5 +50,5 @@ pip install -r requirements.txt
   [LinkedIn](https://www.linkedin.com/in/salma-makhlouf)
 
 ## 📸 Aperçu du POC
-![Copilot Screenshot](assets/screenshot.png)
+![Copilot Screenshot](POC_vision.jpg)
 
