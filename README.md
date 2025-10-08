@@ -25,16 +25,20 @@ L’idée principale : proposer un **Copilot** capable de répondre aux question
 
 ![Architecture du projet](https://via.placeholder.com/900x400.png?text=Architecture+Copilot+RAG)
 
+
 ## 🚀 Installation
 Clonez ce dépôt et installez les dépendances :
 
 ```bash
 git clone https://github.com/<ton-username>/Chatbot_Copilot_RAG.git
 cd Chatbot_Copilot_RAG
-pip install -r requirements.txt.
+pip install -r requirements.txt
 
-
-##  👩‍💻 Auteur
+## 👩‍💻 Auteur
 - **Salma Makhlouf**  
   Data Scientist & Engineer spécialisée en NLP et IA générative  
   [LinkedIn](https://www.linkedin.com/in/salma-makhlouf)
+
+## 📸 Aperçu du POC
+![Copilot Screenshot](assets/screenshot.png)
+
