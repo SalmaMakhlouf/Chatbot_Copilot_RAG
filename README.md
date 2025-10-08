@@ -1,29 +1,34 @@
-# Chatbot_Copilot_RAG
-Chatbot intelligent basé sur LLM et RAG (LangChain, Azure) pour automatiser l’accès aux dashboards R&amp;D.
-# Chatbot Copilot RAG
+# 🤖 Resource Management Copilot (POC)
 
 ## 🎯 Objectif
-Développer un chatbot intelligent basé sur LLM et RAG (LangChain, FAISS, Azure) pour automatiser l’accès aux dashboards R&D et faciliter la prise de décision.
+Ce projet est un **Proof of Concept (POC)** développé pour démontrer l’utilisation de l’IA générative et de la recherche augmentée (RAG) afin de **faciliter l’accès aux données de gestion de ressources**.  
+L’idée principale : proposer un **Copilot** capable de répondre aux questions des managers en langage naturel, en s’appuyant sur les données stockées dans les systèmes existants.
 
 ## 🛠️ Technologies utilisées
-- Python 3.10+
-- LangChain
-- Azure Cognitive Services / OpenAI
-- Streamlit (interface utilisateur)
+- **LangChain** : orchestration des appels LLM et pipeline RAG  
+- **Azure OpenAI (GPT-4o)** : génération de réponses  
+- **Azure Cognitive Search** : recherche sémantique et hybride sur les données  
+- **Streamlit** : interface utilisateur simple et interactive  
+- **Python** (3.10+)  
+- **Autres** : Scikit-learn (cosine similarity), Pillow, dotenv  
 
-## ⚙️ Architecture
-1. **Chargement des données** (CSV, JSON, SQL)
-2. **Vectorisation** avec embeddings (Azure OpenAI / Sentence Transformers)
-3. **Recherche** via FAISS
-4. **LLM** (GPT-3.5/4) pour générer des réponses
-5. **Interface** avec Streamlit
+## ⚙️ Architecture du POC
+1. **Préparation des données** : fichiers (CSV, JSON, SQL) indexés dans Azure Cognitive Search.  
+2. **Recherche augmentée (RAG)** :  
+   - embeddings générés via Azure OpenAI  
+   - requêtes utilisateur envoyées au moteur Azure Search  
+   - post-traitement des résultats (filtrage par similarité cosine).  
+3. **LLM (Azure OpenAI GPT-4o)** : génère une réponse contextualisée à partir du prompt et du contexte.  
+4. **Interface (Streamlit)** :  
+   - affichage d’un dashboard Power BI (statique dans le POC)  
+   - zone de chat interactive avec mémoire de conversation.  
 
-![Architecture du projet](https://via.placeholder.com/800x400.png?text=Schema+Chatbot+RAG)
+![Architecture du projet](https://via.placeholder.com/900x400.png?text=Architecture+Copilot+RAG)
 
 ## 🚀 Installation
-Clonez le dépôt et installez les dépendances :
+Clonez ce dépôt et installez les dépendances :
 
 ```bash
-git clone https://github.com/SalmaMakhlouf/Chatbot_Copilot_RAG.git
+git clone https://github.com/<ton-username>/Chatbot_Copilot_RAG.git
 cd Chatbot_Copilot_RAG
 pip install -r requirements.txt
