@@ -1,0 +1,7 @@
+Chatbot_Copilot_RAG/
+│── app.py
+│── chat_public.py
+│── requirements.txt
+│── .env.example
+│── README.md
+│── .gitignore
