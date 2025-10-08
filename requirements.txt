@@ -7,3 +7,5 @@ langchain-community==0.0.29
 azure-search-documents==11.6.0b4
 scikit-learn
 pandas
+sqlalchemy
+pyodbc
