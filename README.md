@@ -32,3 +32,7 @@ Clonez ce dépôt et installez les dépendances :
 git clone https://github.com/<ton-username>/Chatbot_Copilot_RAG.git
 cd Chatbot_Copilot_RAG
 pip install -r requirements.txt
+## 👩‍💻 Auteur
+- **Salma Makhlouf**  
+  Data Scientist & Engineer spécialisée en NLP et IA générative  
+  [LinkedIn](https://www.linkedin.com/in/salma-makhlouf)
